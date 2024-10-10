@@ -222,7 +222,7 @@ function initAnimations() {
 
 initAnimations();
 
-window.addEventListener('resize', debounce(initAnimations, 200));
+
 
 
 //서비스
@@ -243,7 +243,7 @@ gsap.fromTo('.sc-service .char-area .char',
             each: 0.3,
         }
     }
-);
+); 
 
 //비주얼
 const arr = ['01 Film', '02 Construction', '03 Events', '04 Utilities', '05 EVFleet'];
