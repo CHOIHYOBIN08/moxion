@@ -181,7 +181,7 @@
     color: #030507;
     position: absolute;
     right: 0;
-    top: 0;
+    transform: translateY(-50%);
     margin-right: 0.8611111111vw;
     font-size: 3.953488372vw;
     font-weight: 700;
@@ -532,21 +532,19 @@
     #header{
         display: flex;
         justify-content: space-between;
-    }
-    #header .menu-btn{
-        display: block;
-        transform: translateY(50%);
-        
+        top: 0;
+        width: 90.9302325587vw;
+        height: 14.6511627904vw;;
     }
     #header h1{
-        transform: translateY(50%);
         height: 4.4186046511vw;
         width: 18.8372093019vw;
-
     }
     #header::before{
         border-radius: 0 0 1.3953488372vw 1.3953488372vw;
-        height: 10vh;
+    }
+    #header .menu-btn{
+        display: block;
     }
     #header .gnb,
     #header .btn-contact{
@@ -641,24 +639,15 @@
 @media  (max-width: 780px){
     #header .menu-btn{
         display: block;
-        transform: translateY(50%);
         
     }
     #header h1{
-        transform: translateY(50%);
         height: 4.4186046511vw;
         width: 18.8372093019vw;
 
     }
 }
 @media (min-width:320px) and (max-width:779px){
-    #header .menu-btn{
-        top: 50%;
-        
-    }
-    #header h1{
-        top: 50%;
-    }
 }
     
     
