@@ -222,7 +222,7 @@ function initAnimations() {
 
 initAnimations();
 
-
+window.addEventListener('resize', initAnimations);
 
 
 //서비스
